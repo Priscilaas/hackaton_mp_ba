@@ -4024,6 +4024,11 @@ Created using IcoMoon - icomoon.io
       margin: 4%;
       
     }
+
+    #marcador_dashboard{
+      width: 150px;
+      height: 142px;
+    }
    
 
     .marcador{
@@ -4035,6 +4040,11 @@ Created using IcoMoon - icomoon.io
       width: 80%;
       text-align: justify;
       margin-left: 10%;
+    }
+
+    .texto-background-dashboard{
+      width: 200px;
+      height: 200px;
     }
 
 /*# sourceMappingURL=now-ui-dashboard.css.map */

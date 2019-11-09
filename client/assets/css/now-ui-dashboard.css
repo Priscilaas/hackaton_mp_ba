@@ -891,7 +891,7 @@ fieldset[disabled]
 
 .has-success:after,
 .has-danger:after {
-  font-family: 'Nucleo Outline';
+  font-family: 'AlmaMono-Regular';
   content: "\ea22";
   display: inline-block;
   position: absolute;
@@ -1454,7 +1454,7 @@ a[data-toggle="collapse"][aria-expanded="true"] .caret,
   transition: opacity 0.3s linear; }
 
 .form-check .form-check-sign::after {
-  font-family: 'Nucleo Outline';
+  font-family: 'AlmaMono-Regular';
   content: "\ea22";
   top: 0px;
   text-align: center;
@@ -2042,7 +2042,7 @@ Created using IcoMoon - icomoon.io
   src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-
+  
 /*------------------------
 	base class definition
 -------------------------*/
@@ -3914,15 +3914,13 @@ Created using IcoMoon - icomoon.io
   }
 
   .background-cadastro{
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
   display: flex;
   justify-content: center;
   position: absolute;
+  height: 70%;
   width: 70%;
-  height: 80%;
+  margin-top: 46px;
 
   }
 
@@ -3993,6 +3991,8 @@ Created using IcoMoon - icomoon.io
     display: flex;
     justify-content: center;
     margin-left: 160px;
+    border: none;
+
 
   }
 
@@ -4012,6 +4012,16 @@ Created using IcoMoon - icomoon.io
 
   .centralizador label{
       color:white;
+    }
+
+
+    .texto-background-about{
+      background-color: #f96638;
+    }
+
+    .texto-background-about h3, p{
+      color: white;
+      
     }
 
 /*# sourceMappingURL=now-ui-dashboard.css.map */

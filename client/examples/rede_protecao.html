@@ -20,92 +20,69 @@
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 </head>
 
-<body class="user-profile">
+<body class="">
   <div class="wrapper ">
     <div class="sidebar" data-color="orange">
       <div class="logo flex">
-          <a href="./dashboard.html" class="simple-text logo-normal">
-            <img src="../assets/img/logo.png" alt="" srcset="">
-          </a>
-          <i class="fas fa-bars " style="float: right; align-self: center; "></i>
+        <a href="./dashboard.html" class="simple-text logo-normal">
+          <img src="../assets/img/logo.png" alt="" srcset="">
+        </a>
+        <i class="fas fa-bars " style="float: right; align-self: center; "></i>
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
-          <ul class="nav">
-              <li >
-                <a href="./dashboard.html">
-                  <i class="now-ui-icons design_app"></i>
-                  <p>Home</p>
-                </a>
-              </li>
-              <li class="active">
-                <a href="./login.html">
-                  <i class="fas fa-chalkboard"></i>
-                  <p>Cadastrar Relato</p>
-                </a>
-              </li>
-              <li>
-                <a href="./rede_protecao.html">
-                  <i class="fas fa-network-wired"></i>
-                  <p>Rede de Proteção</p>
-                </a>
-              </li>
-              <li>
-                <a href="./map.html">
-                  <i class="now-ui-icons location_map-big"></i>
-                  <p>Mapa</p>
-                </a>
-              </li>
-              <li>
-                <a href="./about.html">
-                  <i class="now-ui-icons users_single-02"></i>
-                  <p>Sobre</p>
-                </a>
-              </li>
-              <li>
-                <a href="./doubt.html">
-                  <i class="far fa-question-circle"></i>
-                  <p>Dúvida</p>
-                </a>
-              </li>
-          </ul>
-      </div>
-    </div>
-    <div class="main-panel-new" id="main-panel-new">
-        <h5>Cadastrar Relato</h5>
-      <div class="content-new">
-        <div class="borda_background">
-          <!-- <img class="background-cadastro" src="../assets/img/borda-cadastro.png" alt="" srcset=""> -->
-        
-          <form>
-            <div class="centralizador">
-              <h6><a href="./loign.html">Entrar </a> | <a href="./cadastro.html">Cadastrar </a></h6>
-              <div class="col-md-6 pr-1"> 
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">E-mail</label>
-                    <input type="email" class="form-control" placeholder="jose@...">
-                  </div>
-              </div>
-              <div class="col-md-6 pr-1" >
-                  <div class="form-group">
-                    <label>Senha</label>
-                    <input type="text" class="form-control" placeholder="*******" value="">
-                  </div>
-              </div>
-              <div class="col-md-6 pr-1" ></div>
-                <div class="form-group">
-                    <button class="col-md-6 pr-1">Acessar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-              
-            
-          </form>
+        <ul class="nav">
+          <li >
+            <a href="./dashboard.html">
+              <i class="now-ui-icons design_app"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li>
+            <a href="./login.html">
+              <i class="fas fa-chalkboard"></i>
+              <p>Cadastrar Relato</p>
+            </a>
+          </li>
+          <li class="active ">
+            <a href="./rede_protecao.html">
+              <i class="fas fa-network-wired"></i>
+              <p>Rede de Proteção</p>
+            </a>
+          </li>
+          <li>
+            <a href="./map.html">
+              <i class="now-ui-icons location_map-big"></i>
+              <p>Mapa</p>
+            </a>
+          </li>
+          <li>
+            <a href="./about.html">
+              <i class="now-ui-icons users_single-02"></i>
+              <p>Sobre</p>
+            </a>
+          </li>
+          <li>
+            <a href="./doubt.html">
+              <i class="far fa-question-circle"></i>
+              <p>Dúvida</p>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
 
+
+
+
+
+    <!-- Sidebar -->
+    
+    <div class="main-panel texto-background-about" id="main-panel">
+          <h3> <img src="../assets/img/marcador.png" alt="" srcset="">Sobre Nós </h3>
+          <p>A ciranda não tem <br>início, meio nem fim<br> mas um entrelaçamento<br>de pontos distribuídos.
+            <br><br> Tem flexibilidade e<br> resiliência para resistir <br>as ações externas de <br>forma colaborativa.</p>
   </div>
-
+  
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
@@ -121,7 +98,13 @@
   <script src="../assets/js/now-ui-dashboard.min.js?v=1.3.0" type="text/javascript"></script>
   <!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
-</body>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
 
+    });
+  </script>
+</body>
 
 </html>

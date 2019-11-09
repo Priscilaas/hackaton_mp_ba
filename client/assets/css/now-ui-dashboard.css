@@ -2575,7 +2575,9 @@ Created using IcoMoon - icomoon.io
 .wrapper {
   position: relative;
   top: 0;
-  height: 100vh; }
+  height: 100vh; 
+
+}
   .wrapper.wrapper-full-page {
     min-height: 100vh;
     height: auto; 
@@ -3863,6 +3865,13 @@ Created using IcoMoon - icomoon.io
     transition-timing-function: cubic-bezier(0.685, 0.0473, 0.346, 1);
     -webkit-overflow-scrolling: touch; } }
 
+    .wrapper-new {
+      position: relative;
+      top: 0;
+      height: 100vh; 
+      background-color:#00233f;
+    
+    }
 
   .fa, .fas {
     font-weight: 900;
@@ -3911,6 +3920,9 @@ Created using IcoMoon - icomoon.io
   background-size: cover;
   display: flex;
   justify-content: center;
+  position: absolute;
+  width: 70%;
+  height: 80%;
 
   }
 
@@ -3957,7 +3969,49 @@ Created using IcoMoon - icomoon.io
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
+
+  .form-group input{
+    border-color: #f96638;
+    border-width: medium;
+    width: 300px;
+    height: 42px;
+
+  }
+
+  .form-group button{
+    border-color: #f96638;
+    border-width: medium;
+    border-radius: 25px;
+    height: 42px;
+    background-color: #f96638;
+    color: #00233f;
+    font-weight: bold;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+
+  }
+
+  .centralizador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 252px;
+  }
+
+  .centralizador h6{
+    color:white;
+  }
+  .centralizador h3{
+    color:white;
+  }
+
+  .centralizador label{
+      color:white;
+    }
 
 /*# sourceMappingURL=now-ui-dashboard.css.map */

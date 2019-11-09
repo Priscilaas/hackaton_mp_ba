@@ -446,7 +446,11 @@ demo = {
   },
 
   initGoogleMaps: function() {
+<<<<<<< Updated upstream
     var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
+=======
+    var myLatlng = new google.maps.LatLng(-12.9704, -38.5124);
+>>>>>>> Stashed changes
     var mapOptions = {
       zoom: 13,
       center: myLatlng,
